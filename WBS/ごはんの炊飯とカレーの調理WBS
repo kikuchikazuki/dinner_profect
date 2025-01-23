@@ -1,0 +1,14 @@
+@startwbs ごはんの炊飯とカレーの調理WBS
+title
+炊飯とカレー調理WBS
+end title
+* ごはんとカレーを皿に盛り付ける
+**[#SkyBlue] ご飯を炊く
+***[#Yellow] 米を研ぐ
+***[#Yellow] 米を炊飯器に入れる
+**[#SkyBlue] カレーの調理
+***[#Yellow] 野菜を切る
+***[#Yellow] 肉を痛める
+***[#Yellow] 野菜を入れゆでる
+***[#Yellow] カレー粉を入れる
+@endwbs
