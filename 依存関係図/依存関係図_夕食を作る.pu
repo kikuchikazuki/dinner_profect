@@ -1,0 +1,24 @@
+@startuml
+!define RECTANGLE class
+
+RECTANGLE 食材の準備
+RECTANGLE 料理の調理
+RECTANGLE 盛り付け
+
+RECTANGLE チキンカレー作成
+チキンカレー作成 -down-> 食材の準備
+チキンカレー作成 -down-> 料理の調理
+チキンカレー作成 -down-> 盛り付け
+
+RECTANGLE サラダ作成
+サラダ作成 -down-> 食材の準備
+サラダ作成 -down-> 盛り付け
+
+RECTANGLE 野菜スープ作成
+野菜スープ作成 -down-> 食材の準備
+野菜スープ作成 -down-> 料理の調理
+野菜スープ作成 -down-> 盛り付け
+
+食材の準備 -down-> 料理の調理
+料理の調理 -down-> 盛り付け 
+@enduml
